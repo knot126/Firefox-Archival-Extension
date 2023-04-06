@@ -1,0 +1,20 @@
+{
+  "description": "Browser based content archival tool",
+  "manifest_version": 2,
+  "name": "Archival Tool",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "downloads"
+  ]
+}
